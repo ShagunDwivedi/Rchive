@@ -12,16 +12,16 @@ num2 = 20
 
 
 # printing a var and arithmetic ops
-mod = num1 %% num2
-quot = num1 %/% num2
-pow = num1 ^ 2
-sum = num1+num2
-#print(num1-num2)
-#print(num1*num2)
-#print(num2/num1)
-#print(ls(pattern='num'))
-#cat(string, num, logic, int, raw, complex_)
-cat(mod, quot, pow, sum)
+mod <- num1 %% num2
+quot <- num1 %/% num2
+pow <- num1 ^ 2
+sum <- num1 + num2
+print(num1 - num2)
+print(num1 * num2)
+print(num2 / num1)
+print(ls(pattern = "num"))
+cat(string, num, logic, int)
+cat(mod, quot, pow, sum, newraw, complex_)
 
 
 #comparisons
@@ -33,5 +33,5 @@ print(TRUE & FALSE)
 print(TRUE | FALSE)
 
 # deleting a var
-#rm(num2)
-#print(num2)
+rm(num2)
+print(num2)
